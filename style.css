@@ -2,10 +2,10 @@
 body {
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 23px;
     line-height: 150%;
     color: #333;
-    background: #EFEEE7
+    background: #7cd88b;
 }
 h1 {
     background: #333;
@@ -18,23 +18,24 @@ h1 {
 }
 h2 {
     font-size: 24px;
+    margin-top:0;
 }
 .container {
     width: 1040px;
+    float: left;
 }
 .container,
 .contact {
-    margin: 20px;
-    float: left;
+    margin: 30px;
 }
-#photo {
-    width: 200px;
-    height: 200px;
+.photo {
+    width: 250px;
+    height: 250px;
 }
 #bio {
-    width: 820px;
+    width: 66%;
     float: right;
 }
 a {
-    color: #D21034;
+    color: #ff002f;
 }
